@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="453.287" height="524.65" viewBox="0 0 453.287 524.65">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.819" y1="-0.051" x2="0.379" y2="0.994" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#363333"/>
+      <stop offset="1" stop-color="#018555"/>
+    </linearGradient>
+  </defs>
+  <g id="bg_mobile" data-name="bg mobile" transform="translate(453.288 65.656) rotate(100)" opacity="0.58">
+    <g id="Background_Simple" data-name="Background Simple" transform="translate(0 0.001)">
+      <path id="Caminho_7" data-name="Caminho 7" d="M452.292,176.961C400.544,88.359,260.214,119.917,231.5,76.82c-14.67-22.068-31.091-47.65-54.911-60.962C153.916,3.184,127.6-1.348,104.653.34,22.695,6.369-12.048,79.665,3.694,160.19,24.7,267.6,119.949,377.329,233.051,378.093c59.157.4,115.639-20.742,159.956-50.644l.987-.669C438.259,296.645,491.79,244.621,452.292,176.961Z" transform="translate(0 -0.001)" opacity="0.58" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

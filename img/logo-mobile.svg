@@ -1,0 +1,24 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30.348" height="30.348" viewBox="0 0 30.348 30.348">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#11e096"/>
+      <stop offset="1" stop-color="#018555"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0" y1="0.5" y2="0.5" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path">
+      <path id="Caminho_4" data-name="Caminho 4" d="M22.049,25.606H16.727L11.7,20.135l5.027-5.475h5.322L17,20.135Z" transform="translate(-11.7 -14.66)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Caminho_6" data-name="Caminho 6" d="M30.46,25h5.322l5.027,5.475-5.027,5.47H30.46l5.051-5.47Z" transform="translate(-30.46 -25)" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Retângulo_44" data-name="Retângulo 44" width="30.348" height="30.348" rx="5" fill="#fff"/>
+  <path id="Caminho_1" data-name="Caminho 1" d="M22.049,25.606H16.727L11.7,20.135l5.027-5.475h5.322L17,20.135Z" transform="translate(-5.934 -7.435)" fill="url(#linear-gradient)"/>
+  <path id="Caminho_2" data-name="Caminho 2" d="M30.36,25.2h5.322l5.027,5.47-5.027,5.475H30.36l5.051-5.475Z" transform="translate(-15.398 -12.781)" fill="url(#linear-gradient-2)"/>
+  <g id="Grupo_4" data-name="Grupo 4" transform="translate(5.766 7.225)" clip-path="url(#clip-path)">
+    <path id="Caminho_3" data-name="Caminho 3" d="M23.083,10.7,16.8,18.127l5.569,6.466" transform="translate(-14.287 -12.652)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+  <g id="Grupo_5" data-name="Grupo 5" transform="translate(15.011 12.321)" clip-path="url(#clip-path-2)">
+    <path id="Caminho_5" data-name="Caminho 5" d="M33.6,36.913l6.288-7.427L34.32,23.02" transform="translate(-32.053 -23.996)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  </g>
+</svg>
