@@ -229,3 +229,11 @@ margin: 0 auto;
   justify-content: start;
   gap: 1rem;
 }
+@media(max-width: 320px){
+  .servicos-item{
+    max-width: 100%;
+  }
+  .servicos-item .icons{
+    gap: .6rem;
+  }
+}
