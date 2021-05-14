@@ -226,5 +226,6 @@ margin: 0 auto;
 .servicos-item .icons{
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 1rem;
 }
