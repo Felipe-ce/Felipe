@@ -32,6 +32,10 @@ body{
   background-color: var(--cor-bg-body);
   font-family: var(--text-corpo);
 }
+img{
+  display: block;
+  max-width: 100%;
+}
 
 /* gerais */
 .btn{
@@ -138,6 +142,7 @@ margin: 0 auto;
   margin-bottom: 1rem;
 }
 .intro .arrow{
+  display: inline-block;
   width: .75rem;
   transform: rotate(180deg);
   margin-left: .2rem;
@@ -205,7 +210,7 @@ margin: 0 auto;
   margin-bottom: .5rem;
 }
 
-
+/* Serviços */
 .servicos{
   padding: 2rem 1rem;
   color: var(--cor-text-corpo);
@@ -236,4 +241,75 @@ margin: 0 auto;
   .servicos-item .icons{
     gap: .6rem;
   }
+}
+
+/* Projetos */
+.projetos{
+  padding: 2rem 1rem;
+  color: var(--cor-text-corpo);
+  display: grid;
+  gap: 2rem;
+}
+.projetos h1.titulo::after{
+  width: 8.75rem;
+}
+.nav-tab{
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.nav-tab li{
+  font-family: var(--text-titulo);
+  padding: .2rem;
+  cursor: pointer;
+  letter-spacing: .1rem;
+  font-size: 1.125rem;
+
+}
+.nav-tab li.ativo{
+  font-family: var(--text-titulo);
+  font-weight: bold;
+  letter-spacing: .1rem;
+  position: relative;
+}
+.nav-tab li.ativo::after{
+  content: "";
+  height: 0.538rem;
+  width: 100%;
+  background: var(--cor-primaria);
+  display: block;
+  opacity: .5;
+  position: absolute;
+  bottom: 0.313rem;
+  left: 0;
+  z-index: -1;
+  border-radius: 0.313rem;
+}
+.itens-content{
+  display: grid;
+  gap: 2rem;
+}
+.projeto-item img{
+  border-radius:  0.625rem 0.625rem 0 0;
+}
+.item-info{
+  margin-top: -6px;
+  background: var(--cor-bg-card);
+  padding: 1rem .5rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-evenly;
+  border-radius: 0 0 0.625rem 0.625rem;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.item-info h2{
+  font-family: var(--text-titulo);
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+.item-info a.btn{
+  width: 100px;
 }
