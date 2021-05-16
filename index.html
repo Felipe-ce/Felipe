@@ -97,7 +97,7 @@
     <div class="servicos-item">
       <h1 class="subtitulo">SEO</h1>
       <p>
-        Aplicando técnicas de semântica, acessibilidade e performance para  um melhor posicionamento.
+        Aplicando técnicas de semântica, acessibilidade e performance para um melhor posicionamento.
       </p>
       <div class="icons">
         <img src="img/seo/seo.svg" alt="SEO">
@@ -124,29 +124,29 @@
     <div>
       <h1 class="titulo">Projetos</h1>
       <p>
-        Estes são alguns dos projetos em 
+        Estes são alguns dos projetos em
         que trabalhei.
       </p>
     </div>
     <ul class="nav-tab">
       <li class="ativo">Todos</li>
-      <li >Web Sites</li>
-      <li >Design</li>
+      <li>Web Sites</li>
+      <li>Design</li>
     </ul>
     <div class="itens-content">
-        <div class="projeto-item">
-            <img src="img/p1.jpg" alt="p1"> 
-          <div class="item-info">
-            <div>
-              <h2>Bike Crafit</h2>
-              <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
-            </div>
-            <a class="btn" href="#">Visitar</a>
+      <div class="projeto-item">
+        <img src="img/p1.jpg" alt="p1">
+        <div class="item-info">
+          <div>
+            <h2>Bike Crafit</h2>
+            <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
           </div>
+          <a class="btn" href="#">Visitar</a>
         </div>
+      </div>
 
-        <div class="projeto-item">
-          <img src="img/p2.jpg" alt="p2"> 
+      <div class="projeto-item">
+        <img src="img/p2.jpg" alt="p2">
         <div class="item-info">
           <div>
             <h2>Antonio Guia</h2>
@@ -156,8 +156,72 @@
         </div>
       </div>
 
+      <div class="projeto-item">
+        <img src="img/p3.jpg" alt="p3">
+        <div class="item-info">
+          <div>
+            <h2>Facebook</h2>
+            <p>Rede social que liga milhoes de pessoas</p>
+          </div>
+          <a class="btn" href="#">Visitar</a>
+        </div>
+      </div>
+
     </div>
   </section>
+
+  <!-- contato   -->
+  <section class="container contato">
+    <h1 class="titulo">Contato</h1>
+    <p>Diga oi! ou me chame nas redes sociais</p>
+    <div class="form-container">
+      <form id="form_orcamento" method="POST" action="./enviar-sendgrid.php" class="formphp">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required placeholder="Nome">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required placeholder="Email">
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+
+        <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" required placeholder="Mensagem"></textarea>
+        <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+      </form>
+  </section>
+
+  <section class="container redes">
+    <h1 class="titulo">Me encontre em</h1>
+    <div class="redes-sociais">
+      <ul>
+        <li>
+          <a href="https://github.com/Felipe-ce" target="_blank"><img src="img/redes/github.svg" alt="Github"></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/felipe-xavier-78053a192/" target="_blank"><img
+              src="img/redes/linkedin.svg" alt="Linkedin"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dev.felipe/" target="_blank"><img src="img/redes/instagram.svg"
+              alt="instagram"></a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5585987555883" target="_blank"><img
+              src="img/redes/whatapp.svg" alt="whatsapp"></a>
+        </li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Copyright © 2021 Felipe Xavier</p>
+  </footer>
 
   <!-- Arquivos JS -->
   <script type="module" src="js/script.js"></script>
