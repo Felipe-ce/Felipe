@@ -332,6 +332,7 @@ margin: 0 auto;
   padding: 2rem 1rem;
   color: var(--cor-text-corpo);
   display: grid;
+  overflow: hidden;
 }
 .contato h1.titulo{
   text-align: center;
@@ -349,6 +350,7 @@ margin: 0 auto;
   padding: 2rem 0;
   display: grid;
   gap: 2rem;
+
 }
 .form-container label{
   display: block;
@@ -394,6 +396,9 @@ margin: 0 auto;
 }
 
 /* estilos para esconder o input de verificação */
+.form-prevent-span{
+  position: relative;
+}
 .nao-aparece {
   visibility: hidden;
   position: absolute;
@@ -437,6 +442,7 @@ margin: 0 auto;
 
 /* footer */
 .footer{
+  width: 100%;
   padding: 1rem;
   text-align: center;
   background: var(--cor-bg-card);

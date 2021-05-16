@@ -183,10 +183,14 @@
         <label for="telefone">Telefone</label>
         <input type="text" id="telefone" name="telefone" placeholder="Telefone">
 
-        <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
-        <input type="text" class="nao-aparece" name="leaveblank">
-        <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+        <div class="form-prevent-span">
+          <!-- verificação para diminuir span -->
+          <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+          <input type="text" class="nao-aparece" name="leaveblank">
+          <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+          <input type="text" class="nao-aparece" name="dontchange" value="http://">
+        </div>
 
         <label for="mensagem">Mensagem</label>
         <textarea id="mensagem" name="mensagem" required placeholder="Mensagem"></textarea>
