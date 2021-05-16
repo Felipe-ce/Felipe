@@ -14,32 +14,39 @@
 <body>
   <header class="header">
     <div class="header-content container">
-      <a class="logo" href="index.html"><img src="img/logo-mobile.svg" alt="Logo"></a>
-      <nav class="menu">
+      <a class="logo" href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+      <nav class="menu" data-menu="suave">
         <ul class="menu-touch">
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#projetos">Projetos</a></li>
-          <li><a class="ativo" href="contato.html">Contrate-me</a></li>
+          <li><a class="ativo" href="#contato">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <!-- Introdução -->
-  <section class="intro">
-    <h1>Front <br> end</h1>
-    <p>Web Design</p>
-
-    <div>
-      <a class="btn" href="#projetos">Contato
-        <img class="arrow" src="img/arrow.svg" alt="Arrow">
-      </a>
-      <a class="btn btn-secundario" href="#contato">Projetos</a>
+  <section class="container intro">
+    <div class="intro-info">
+      <h1>Front end</h1>
+      <p>Web Design</p>
+      <div>
+        <a class="btn" href="#projetos">Contato
+          <img class="arrow" src="img/arrow.svg" alt="Arrow">
+        </a>
+        <a class="btn btn-secundario" href="#contato">Projetos</a>
+      </div>
+    </div>
+    <div class="img-intro">
+      <img src="img/intro-img.svg" alt="Desenvolvendo">
     </div>
   </section>
 
   <!-- Sobre -->
-  <section class="container sobre">
+  <section class="container sobre" id="sobre">
+    <div class="sobre-office">
+      <img src="img/sobre-office.jpg" alt="Office">
+    </div>
     <div>
       <h2 class="titulo">Sobre</h2>
       <p>
@@ -57,70 +64,76 @@
         Estou aberto a colaborações. Posso fazer para você ótimos designs para web, portfólios, páginas de destino e
         muitos mais com um bom preço
       </p>
-      <a class="call" href="#">Contato</a>
+      <a class="call" href="https://api.whatsapp.com/send?1=pt_BR&phone=5585987555883" target="_blank"">Contato</a>
     </div>
   </section>
 
   <!-- Serviços -->
-  <section class="container servicos">
+  <section class="container servicos" id="servicos">
     <div>
       <h2 class="titulo">Serviços</h2>
-      <p>Aqui estão meus serviços, minhas habilidades e experiência.</p>
+      <p>Aqui estão alguns de meus serviços, minhas habilidades e experiência.</p>
     </div>
 
-    <div class="servicos-item">
-      <h1 class="subtitulo">Desenvolvimento Web</h1>
-      <p>
-        Sites com carregamento ultra rápido, desenvolvidos com as melhores ferramentas.
-      </p>
-      <div class="icons">
-        <img src="img/dev-web/html.svg" alt="HTML">
-        <img src="img/dev-web/css.svg" alt="CSS">
-        <img src="img/dev-web/js.svg" alt="Javascript">
-        <img src="img/dev-web/sass.svg" alt="SASS">
-        <img src="img/dev-web/git.svg" alt="Git">
+    <div class="servico-content">
+      <div class="servico-subcontent">
+        <div class="servicos-item">
+          <h1 class="subtitulo">Desenvolvimento Web</h1>
+          <p>
+            Sites com carregamento ultra rápido, desenvolvidos com as melhores ferramentas.
+          </p>
+          <div class="icons">
+            <img src="img/dev-web/html.svg" alt="HTML">
+            <img src="img/dev-web/css.svg" alt="CSS">
+            <img src="img/dev-web/js.svg" alt="Javascript">
+            <img src="img/dev-web/sass.svg" alt="SASS">
+            <img src="img/dev-web/git.svg" alt="Git">
+          </div>
+        </div>
+  
+        <div class="servicos-item">
+          <h1 class="subtitulo">UI / UX Design</h1>
+          <p>
+            Protótipos com padrões de escala tipográfica, grid, ornamentos e cores.
+          </p>
+          <div class="icons">
+            <img src="img/ui/figma.svg" alt="Figma">
+            <img src="img/ui/adobe-xd.svg" alt="Adobe XD">
+            <img src="img/ui/ai.svg" alt="AI">
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="servicos-item">
-      <h1 class="subtitulo">UI / UX Design</h1>
-      <p>
-        Protótipos com padrões de escala tipográfica, grid, ornamentos e cores.
-      </p>
-      <div class="icons">
-        <img src="img/ui/figma.svg" alt="Figma">
-        <img src="img/ui/adobe-xd.svg" alt="Adobe XD">
-        <img src="img/ui/ai.svg" alt="AI">
+      <div class="servico-subcontent">
+        <div class="servicos-item">
+          <h1 class="subtitulo">SEO</h1>
+          <p>
+            Aplicando técnicas de semântica, acessibilidade e performance para um melhor posicionamento.
+          </p>
+          <div class="icons">
+            <img src="img/seo/seo.svg" alt="SEO">
+            <img src="img/seo/foguete.svg" alt="Foguete">
+          </div>
+        </div>
+  
+        <div class="servicos-item">
+          <h1 class="subtitulo">Google ADS</h1>
+          <p>
+            Integrando seu site ao maior buscador do mundo, coletando informações para tomar as melhores decisões.
+          </p>
+          <div class="icons">
+            <img src="img/marketting/googlelogo.svg" alt="Google">
+            <img src="img/marketting/google-analytics.svg" alt="Google Analytics">
+            <img src="img/marketting/google_trends.svg" alt="Google google_trends">
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="servicos-item">
-      <h1 class="subtitulo">SEO</h1>
-      <p>
-        Aplicando técnicas de semântica, acessibilidade e performance para um melhor posicionamento.
-      </p>
-      <div class="icons">
-        <img src="img/seo/seo.svg" alt="SEO">
-        <img src="img/seo/foguete.svg" alt="Foguete">
-      </div>
-    </div>
-
-    <div class="servicos-item">
-      <h1 class="subtitulo">Google ADS</h1>
-      <p>
-        Integrando seu site ao maior buscador do mundo, coletando informações para tomar as melhores decisões.
-      </p>
-      <div class="icons">
-        <img src="img/marketting/googlelogo.svg" alt="Google">
-        <img src="img/marketting/google-analytics.svg" alt="Google Analytics">
-        <img src="img/marketting/google_trends.svg" alt="Google google_trends">
-      </div>
-    </div>
-    <a class="call" href="#">Contato</a>
+    <!-- <a class="call" href="#">Contato</a> -->
   </section>
 
   <!-- Projetos -->
-  <section class="container projetos">
+  <section class="container projetos" id="projetos">
     <div>
       <h1 class="titulo">Projetos</h1>
       <p>
@@ -128,50 +141,131 @@
         que trabalhei.
       </p>
     </div>
-    <ul class="nav-tab">
-      <li class="ativo">Todos</li>
+    <ul class="nav-tab" data-tab="menu">
+      <li>Todos</li>
       <li>Web Sites</li>
       <li>Design</li>
     </ul>
-    <div class="itens-content">
-      <div class="projeto-item">
+    <div class="itens-content" >
+      <div class="projeto-item website" data-tab="content">
         <img src="img/p1.jpg" alt="p1">
         <div class="item-info">
-          <div>
-            <h2>Bike Crafit</h2>
-            <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
-          </div>
-          <a class="btn" href="#">Visitar</a>
+          <h2>projeto 1 site</h2>
+          <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
+          <a class="link-item" href="#">Visitar</a>
         </div>
       </div>
 
-      <div class="projeto-item">
+      <div class="projeto-item design" data-tab="content">
         <img src="img/p2.jpg" alt="p2">
         <div class="item-info">
           <div>
-            <h2>Antonio Guia</h2>
+            <h2>projeto 2 design</h2>
             <p>Consultor, Coach, lider de equipe, curso em equipe</p>
+            <a class="link-item" href="#">Visitar</a>
           </div>
-          <a class="btn" href="#">Visitar</a>
         </div>
       </div>
 
-      <div class="projeto-item">
+      <div class="projeto-item design" data-tab="content">
+        <img src="img/p2.jpg" alt="p2">
+        <div class="item-info">
+          <div>
+            <h2>projeto 3 design</h2>
+            <p>Rede social que liga milhoes de pessoas</p>
+            <a class="link-item" href="#">Visitar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projeto-item design" data-tab="content">
+        <img src="img/p2.jpg" alt="p2">
+        <div class="item-info">
+          <div>
+            <h2>projeto 4 design</h2>
+            <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
+            <a class="link-item" href="#">Visitar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projeto-item website" data-tab="content">
         <img src="img/p3.jpg" alt="p3">
         <div class="item-info">
           <div>
-            <h2>Facebook</h2>
+            <h2>projeto 5 site</h2>
             <p>Rede social que liga milhoes de pessoas</p>
+            <a class="link-item" href="#">Visitar</a>
           </div>
-          <a class="btn" href="#">Visitar</a>
         </div>
       </div>
+      <div class="projeto-item design" data-tab="content">
+        <img src="img/p2.jpg" alt="p2">
+        <div class="item-info">
+          <div>
+            <h2>projeto 6 design</h2>
+            <p>Consultor, Coach, lider de equipe, curso em equipe</p>
+            <a class="link-item" href="#">Visitar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projeto-item design" data-tab="content">
+        <img src="img/p1.jpg" alt="p1">
+        <div class="item-info">
+          <h2>projeto 7 design</h2>
+          <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
+          <a class="link-item" href="#">Visitar</a>
+        </div>
+      </div>
+
+      <div class="projeto-item website" data-tab="content">
+        <img src="img/p3.jpg" alt="p3">
+        <div class="item-info">
+          <div>
+            <h2>peojeto 8 site</h2>
+            <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
+            <a class="link-item" href="#">Visitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="projeto-item website" data-tab="content">
+        <img src="img/p3.jpg" alt="p3">
+        <div class="item-info">
+          <div>
+            <h2>peojeto 8 site</h2>
+            <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
+            <a class="link-item" href="#">Visitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="projeto-item design" data-tab="content">
+        <img src="img/p3.jpg" alt="p3">
+        <div class="item-info">
+          <div>
+            <h2>peojeto 8 site</h2>
+            <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
+            <a class="link-item" href="#">Visitar</a>
+          </div>
+        </div>
+      </div>
+      <div class="projeto-item design" data-tab="content">
+        <img src="img/p3.jpg" alt="p3">
+        <div class="item-info">
+          <div>
+            <h2>peojeto 8 site</h2>
+            <p>Bicicletas personalizadas daquele jeito, ta ligado</p>
+            <a class="link-item" href="#">Visitar</a>
+          </div>
+        </div>
+      </div>
+
 
     </div>
   </section>
 
   <!-- contato   -->
-  <section class="container contato">
+  <section class="contato" id="contato">
     <h1 class="titulo">Contato</h1>
     <p>Diga oi! ou me chame nas redes sociais</p>
     <div class="form-container">

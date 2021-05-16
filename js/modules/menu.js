@@ -4,7 +4,7 @@ export default function initMenu() {
     
     // Opções	
     var settings = $.extend({
-        breakpoint: 768,
+        breakpoint: 768.9,
         top: 50,
         color: 'white',
         background: 'black'
@@ -60,7 +60,7 @@ export default function initMenu() {
   }( jQuery, window ));
   
   $('.menu-touch').origamidMenu({
-    breakpoint: 768,
+    breakpoint: 768.9,
     top: 82,
     background: "#f7616c",
     color: "white"
