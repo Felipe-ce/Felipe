@@ -62,6 +62,6 @@ export default function initMenu() {
   $('.menu-touch').origamidMenu({
     breakpoint: 768.9,
     top: 82,
-    background: "#f7616c",
+    background: "rgba(110,110,110,1)",
     color: "white"
   })};

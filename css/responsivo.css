@@ -5,13 +5,13 @@
     align-items: center;
   }
   .menu a {
+    display: block;
     color: #fff;
     padding: 0.25rem;
     font-size: 1.125rem;
     font-family: var(--text-titulo);
     font-weight: bold;
     letter-spacing: 0.1rem;
-
   }
   .menu li + li{
     margin-left: 1rem;
@@ -59,6 +59,8 @@
   }
   .sobre-office{
     display: block;
+    border-radius: 0.633rem;
+    overflow: hidden;
   }
   .sobre p:nth-child(3){
     margin-top: 2rem;
@@ -107,7 +109,7 @@
   }
 }
 
-@media screen and (min-width: 993.9px) {
+@media screen and (min-width: 993px) {
   .itens-content {
     column-count: 3;
   }
