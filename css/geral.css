@@ -150,7 +150,7 @@ img{
 /* header */
 .logo{
   padding: .5rem;
-  max-width: 100px;
+  max-width: 3.75rem;
 }
 .container{
 max-width: 1140px;
@@ -164,7 +164,6 @@ margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  padding: .8rem;
 }
 
 

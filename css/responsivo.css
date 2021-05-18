@@ -1,4 +1,7 @@
 @media screen and (min-width: 768.9px) {
+  .header-content{
+    padding: 0.625rem;
+  }
   .menu ul {
     display: flex;
     gap: 1rem;
