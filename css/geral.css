@@ -340,6 +340,7 @@ margin: 0 auto;
 }
 .itens-content{
   column-count: 1;
+  column-gap: 1.25rem;
 }
 .projeto-item{
   display: none;
@@ -347,7 +348,7 @@ margin: 0 auto;
   border-radius: 0.625rem;
   overflow: hidden;
   break-inside: avoid-column;
-  margin-bottom: 1.063rem;
+  margin-bottom: 1.25rem;
 }
 .projeto-item.ativo{
   display: block;

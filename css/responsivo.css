@@ -109,6 +109,6 @@
 
 @media screen and (min-width: 993.9px) {
   .itens-content {
-    column-count: 4;
+    column-count: 3;
   }
 }
