@@ -164,7 +164,7 @@ margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: center;
-  padding: .5rem .25rem;
+  padding: .8rem;
 }
 
 

@@ -17,12 +17,18 @@
     margin-left: 1rem;
   }
   .menu li:nth-child(3) {
-    border-radius: 0.633rem;
+    border-radius: 2rem;
     background: var(--cor-btn-primario);
     padding: 0.2rem;
     transition: all .2s;
+    width: 130px;
+    text-align: center;
   }
   .menu li:nth-child(3):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 8px rgba(255, 255, 255, 0.2);
+  }
+  .menu li:nth-child(3):active {
     transform: translateY(-1px);
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.479);
   }
@@ -38,7 +44,7 @@
   }
   .intro-info{
     position: relative;
-    padding: 10rem 0;
+    padding: 10rem 0 10rem 2rem;
   }
   .intro .intro-info:before {
     background: url(/img/bg-mobile.svg) no-repeat left;
